@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main{
+    width: 100%;
+    height: auto;
+    background: #ffffff;
+    text-align: center;
+}
+
+h1, h3{
+    font-family: 'Russo One', sans-serif;
+}
+
+h3{
+    font-size: 30px;
+    letter-spacing: 3px;
+    margin-bottom: 12px;
+}
+
+p, ul{
+    font-family: 'Pacifico', cursive;
+}
+
+header{
+    padding: 60px 60px 20px 60px;
+    background: #1de05e;
+}
+
+header #title{
+    font-size: 50px;
+    letter-spacing: 5px;
+}
+
+header #subtitle{
+    font-size: 25px;
+}
+
+#img-div{
+    width: auto;
+    height: auto;
+    border-radius: 10px;
+    margin: 0px 30px;
+    padding: 40px 0px;
+}
+
+#image{
+    width: 80%;
+}
+
+#img-caption{
+    font-size: 16px;
+}
+
+#tribute-info{
+    width: 80%;
+    margin: 10px auto;
+    background: #1de05e;
+    padding: 10px 50px;
+    border-radius: 10px;
+}
+
+#timeline-ul{
+    margin:  20px;
+    text-align: start;
+    
+}
+
+#timeline-ul li{
+    font-size: 16px;
+}
+
+#timeline-ul li:hover{
+    font-size: 25px;
+    cursor: pointer;
+}
+
+#movie-div{
+    margin: 40px auto;
+}
+
+#quotes{
+    font-size: 25px;
+}
+
+#more-reading{ 
+    margin-top: 60px;
+    padding: 20px;
+    background: #1de05e;
+}
+
+#more-reading h3{
+    font-size: 18px;
+}
