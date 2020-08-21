@@ -58,8 +58,10 @@ header #subtitle{
 }
 
 #image{
-    width: 80%;
+    max-width: 80%;
     border-radius: 15px;
+    display: block;
+    margin: auto;
 }
 
 #img-caption{
@@ -78,7 +80,6 @@ header #subtitle{
 #timeline-ul{
     margin:  20px;
     text-align: start;
-    
 }
 
 #timeline-ul li{
@@ -127,4 +128,65 @@ header #subtitle{
 #heart{
     width: 25px;
     height: 25px;
+}
+
+  /* On screens that are 600px or less */
+  @media screen and (max-width: 600px) {
+
+    header #title{
+        font-size: 30px;
+    }
+
+    header #subtitle{
+        font-size: 18px;
+    }
+
+    #image{
+        max-width: 100%;
+        border-radius: 10px;
+    }
+
+    #img-caption{
+        font-size: 14px;
+    }
+
+    h3{
+        font-size: 25px;
+    }
+
+    #timeline-ul{
+        margin:  10px 5px;
+    }    
+
+    #timeline-ul li{
+        font-size: 16px;
+        line-height: 1.5em;
+    }
+
+    #tribute-info{
+        width: 90%;
+        margin: 5px auto;
+        padding: 20px 30px;
+
+    }
+
+    #timeline-ul li:hover{
+        font-size: 20px;
+    }
+
+    #embed_movie{
+        width: 90%;
+        height: 50vh;
+    }
+
+    #quotes{
+        font-size: 18px;
+        margin: auto 10px;
+    }
+
+    #more-reading p{
+        font-size: 16px;
+        color: #ffffff;
+        margin: auto 10px;
+    }
 }
