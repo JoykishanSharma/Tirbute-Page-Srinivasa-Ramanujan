@@ -7,12 +7,16 @@
 main{
     width: 100%;
     height: auto;
-    background: #ffffff;
+    background: #e7e7e7;
     text-align: center;
 }
 
 h1, h3{
     font-family: 'Russo One', sans-serif;
+    color: #ffffff;
+    filter: drop-shadow(
+    3px 5px 4px black
+);
 }
 
 h3{
@@ -23,6 +27,11 @@ h3{
 
 p, ul{
     font-family: 'Pacifico', cursive;
+}
+
+a{
+    color: #006faf;
+    
 }
 
 header{
@@ -37,6 +46,7 @@ header #title{
 
 header #subtitle{
     font-size: 25px;
+    color: #494949;
 }
 
 #img-div{
@@ -49,10 +59,12 @@ header #subtitle{
 
 #image{
     width: 80%;
+    border-radius: 15px;
 }
 
 #img-caption{
     font-size: 16px;
+    color: #555454;
 }
 
 #tribute-info{
@@ -71,19 +83,34 @@ header #subtitle{
 
 #timeline-ul li{
     font-size: 16px;
+    color: #292929;
+    word-spacing: 2px;
+    line-height: 2em;
 }
 
 #timeline-ul li:hover{
     font-size: 25px;
     cursor: pointer;
+    color: #ffffff;
+    transition: font-size 0.3s ease;
 }
 
 #movie-div{
-    margin: 40px auto;
+    margin: 60px auto;
+}
+
+#embed_movie{
+    width: 70%;
+    height: 80vh;
 }
 
 #quotes{
     font-size: 25px;
+    color: #494949;
+}
+
+#movie-div h3, #quote-div h3{
+    color: #1de05e;
 }
 
 #more-reading{ 
@@ -92,6 +119,12 @@ header #subtitle{
     background: #1de05e;
 }
 
-#more-reading h3{
-    font-size: 18px;
+#more-reading p{
+    font-size: 20px;
+    color: #ffffff;
+}
+
+#heart{
+    width: 25px;
+    height: 25px;
 }
