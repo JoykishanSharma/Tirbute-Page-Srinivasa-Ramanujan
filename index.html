@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Russo+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/styling.css">
     <title>Tribute Page - S. Ramanujan</title>
 </head>
@@ -12,19 +13,22 @@
 
     <main id="main">
 
+        <!-- Header title and subtitle-->
         <header>
             <h1 id="title">Srinivasa Iyengar Ramanujan</h1>
             <p id="subtitle">The man who knew infinity</p>
         </header>
 
+        <!-- Image div and image caption-->
         <div id="img-div">
             <img id="image" src="img/ramanujan_at_cambridge.jpg" alt="S. Ramanujan photo">
             <p id="img-caption">Srinivasa Ramanujan (middle) with fellow scientists at Cambridge.</p>
         </div>
 
+        <!-- Timeline div-->
         <div id="tribute-info">
             <h3>Here's a timeline of S. Ramanujan:</h3>
-            <ul>
+            <ul id="timeline-ul">
                 <li><strong>1887</strong> - Born In Erode, Tamil Nadu, on December 22</li>
                 <li><strong>1903</strong> - Passes Matriculation examination from Town High School, Kumbakonam</li>
                 <li><strong>1904</strong> - Joins Government Arts College, Kumbakonam</li>
@@ -48,25 +52,32 @@
                 <li><strong>1927</strong> - Collected papers of Ramanujan, edited by P.V. Seshu Aiyar, G.H. Hardy and
                     B.M. Wilson and published by Cambridge University Press</li>
             </ul>
-            <div id="movie-div">
-                <h3>The Man Who Knew Infinity - Movie</h3>
-                <iframe id="embed_movie" target="_blank" width="560" height="315"
-                    src="https://www.youtube.com/embed/8WwLPep9xNg" frameborder="0"
-                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
-            </div>
-            <div id="quote-div">
-                <h3>His Beautiful Quote</h3>
-                <p id="quotes">
-                    “An equation for me has no meaning, unless it expresses a thought of God.”
-                    <br>― Srinivasa Ramanujan
-                </p>
-            </div>
+        </div>
+
+        <!-- Movie div -->
+        <div id="movie-div">
+            <h3>The Man Who Knew Infinity - Movie</h3>
+            <iframe id="embed_movie" target="_blank" width="560" height="315"
+                src="https://www.youtube.com/embed/8WwLPep9xNg" frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </div>
+
+        <!-- Quote div -->
+        <div id="quote-div">
+            <h3>His Beautiful Quote</h3>
+            <p id="quotes">
+                “An equation for me has no meaning, unless it expresses a thought of God.”
+                <br>― Srinivasa Ramanujan
+            </p>
+        </div>
+
+        <!-- More Reading div -->
+        <div id="more-reading">
             <h3>
                 You may read more about this incredible man from this <a id="tribute-link"
                     href="https://en.wikipedia.org/wiki/Srinivasa_Ramanujan" target="_blank">Wikipedia</a> entry.
             </h3>
-
         </div>
 
     </main>
