@@ -105,7 +105,7 @@ header #subtitle{
     height: 80vh;
 }
 
-#quotes{
+#quote-div p{
     font-size: 25px;
     color: #494949;
 }
