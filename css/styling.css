@@ -105,9 +105,9 @@ header #subtitle{
     height: 80vh;
 }
 
-#quote-div p{
-    font-size: 25px;
-    color: #494949;
+#quote-div p {
+	font-size: 25px;
+	color: #494949;
 }
 
 #movie-div h3, #quote-div h3{
